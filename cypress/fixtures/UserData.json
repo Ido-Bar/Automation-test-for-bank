@@ -1,0 +1,12 @@
+{ 
+  "name" : "Hermoine Granger",
+  "amountToDeposit" : "1000",
+  "amountToWithdraw" : "500",
+  "currency" : "Dollar",
+  "newCustomerFirstName" : "Severus",
+  "newCustomerLastName" : "Snape",
+  "newCustomerPostCode" : "12345"
+  
+
+  
+}

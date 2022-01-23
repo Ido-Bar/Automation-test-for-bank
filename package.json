@@ -1,0 +1,23 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "start": "node_modules\\.bin\\cypress open",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "failedTests": "npm run test -- --spec \"cypress/integration/failedTests/*\"",
+    "mainTests": "npm run test -- --spec \"cypress/integration/mainTests/*\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "moment": "^2.29.1"
+  }
+}
